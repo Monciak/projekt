@@ -1,0 +1,41 @@
+@media  screen and (max-width: 425px) {
+header>nav>ul> li{
+    padding: 0 15px;
+}
+.kenshi{
+    margin: 0;
+    padding: 0;
+}
+.nature img{
+    display: none;
+}
+.nature>div>div {
+    padding: 10px 5px;
+}
+.tickets>div>p{
+    font-weight: 700;
+    color: black;
+}
+.cos>div{
+    flex-direction: column;
+}
+.cos>div>div{
+    width: 100%;
+}
+.reviewers .sec8{
+    margin: 0;
+    width: 100%;
+}
+.quote div{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer{
+    margin: 0;
+}
+footer div{
+    width: 90%;
+    padding: 0;
+    margin: auto;
+}
+}

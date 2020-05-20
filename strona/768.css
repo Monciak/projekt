@@ -1,0 +1,74 @@
+@media  screen and (max-width: 768px) {
+    *{
+        font-size: 18px;
+    }
+    header{
+        margin: auto;
+    }    
+    header>a>img{
+        display: none;
+        width: 100%;
+    }
+    header>nav{
+        margin: auto;
+    }
+    header>nav>ul{
+        width: 100%;
+        background-color: black;
+        padding:0;
+    }
+    header>nav>ul>li{
+        background-color: black;
+        padding: auto;
+    }
+    .btn1{
+        width: 29%;
+    }
+    .weare>#sec2p2{
+        padding:0;
+    }
+    .weare>#sec2p2>div{
+        text-align: center;
+        width: 100%;
+        padding:0;
+    }
+    .weare>#sec2p2>div>span{
+        color: #00a3db;
+    }
+    #sec2p2{
+        flex-direction: column;
+    }
+    .priorities>#sec3p1{
+        width: 90%;
+        margin: auto;
+        padding: 0;
+    }
+    .priorities>#sec3p2>div{
+        width: 260px;
+    }
+    .exacly{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .exacly>#sec4p2>div>img{
+        width: 80%;
+    }
+    .cos>div>div {
+        padding:0;
+    }
+    .ikony>li>a>img{
+        width: 35px;
+    }
+}
+@media  screen and (max-width: 750px) {
+    .priorities>#sec3p2{
+        margin: 0;
+    }
+    .priorities>#sec3p2>div{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .priorities>#sec3p2>div>{
+        padding: 15px;
+    }
+}

@@ -1,0 +1,5 @@
+@media  screen and (max-width: 375px) {
+    .ikony>li>a>img{
+        width: 25px;
+    }
+}

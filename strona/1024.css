@@ -1,0 +1,67 @@
+@media  screen and (max-width: 1024px) {
+    html{
+        width: 100%;
+    }
+    .kenshi{
+        padding:0 120px;
+        background-image: none;
+    }
+    .weare>#sec2p1{
+        padding:auto;
+    }
+    .weare>#sec2p2>div{
+        padding: 0 5px;
+    }
+    .priorities>#sec3p2{
+        align-items: stretch;
+    }
+    .priorities>#sec3p2>div{
+        margin: 15px auto;
+    }
+    .tickets>div{
+        width: 100%;
+        float: none;
+        padding: 0;
+    }
+    .tickets>div>h1{
+        margin: 0;
+        padding: 100px 0;
+        width: 100%;
+        text-align: center;
+    }    
+    .tickets>div>.p{
+        padding-bottom: 90px;
+    }
+    .tickets>div>div>p{
+        margin: auto;
+        text-align: center;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .tickets>div>.btn2{
+        margin: auto;
+        text-align: center;
+        float: none;
+    }
+    .nature{
+        padding:0;
+    }
+    #sec8p1{
+        flex-direction: column;
+    }
+    .reviewers{
+        padding:0;
+    }
+    .reviewers .sec8{
+        margin: auto;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .reviewers .sec8 p,.reviewers .sec8 h3{
+        text-align: center;
+    }
+    .reviewers img{
+        width: 35%;
+        height: 35%;
+    }
+}

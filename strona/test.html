@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Kenshi - strona</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="1024.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700&display=swap" rel="stylesheet">
+        <style>
+        body{
+            margin: 0;
+            font-family: 'Source Sans Pro', sans-serif;
+            background-color: rgb(36, 33, 33);
+            color: #00a3db;
+            line-height: 35px;
+            font-size: 21px;
+        }
+        header{
+            background-color: black;
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: space-between;
+            height: 67px;
+            line-height: normal;
+        }
+        header>nav>ul{
+            display: flex;
+            flex-direction: row;
+            padding-right: 25px;
+        }
+        header>nav>ul>li{
+            text-transform: uppercase;
+            padding: 0 40px;
+            list-style-type: none;
+        }
+        header>nav>ul>li>a{
+            text-decoration: none;
+            color: #00c1ff;
+        }
+        header>nav>ul>li>a:hover{
+            text-decoration: none;
+            color: #d7d7d7;
+        }
+        header>a>img{
+            padding-left: 50px;
+            height:100%;
+        }
+        #section1{
+            color: #d7d7d7;
+            background-image: url("sek1.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            height: 975px;
+        }
+        #section1>div{
+            margin: auto;
+            text-align: center;
+            font-size: 25px;
+        }
+        #section1>div>h1{
+            color: #d7d7d7;
+            font-size: 90px;
+        }
+        .btn1>a{
+            color: #00a3db;
+            margin: auto;
+            text-decoration: none;
+        }
+        
+        .btn1{
+            padding-top: 10px;
+            border-radius: 20px;
+            background-color: #d5d5d5;
+            font-size: 22px;
+            width: 17%;
+            height: 40px;
+            margin: auto;
+            transition: 0.3s;
+        }
+        .btn1:hover{
+            background-color:#00c1ff;
+            color: #d5d5d5;
+        }
+        .btn1:hover>a{
+            color: #d5d5d5;
+        }
+        #section2{
+            background-color: black;
+            color: #00c1ff;
+        }
+        #sec2p1{
+            text-align: center;
+            padding: 50px 0;
+            width: 100%;
+        }
+        #sec2p2{
+            color: #d7d7d7;
+            display: flex;
+            width: 100%;
+            background-color: #141414;
+            padding: 90px 0;
+        }
+        #sec2p2>div{
+            width: 33%;
+            padding: 0 120px;
+        }
+        #sec2p2>div>span{
+            font-size: 25px;
+        }
+        #section3{
+            background-image: url("back2.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            padding-bottom: 125px;
+        }
+        #sec3p1{
+            padding: 100px;
+            width: auto;
+        }
+        #sec3p2{
+            margin: 0 120px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        #sec3p2>div{
+            margin: 17px 18px;
+            background-color: rgba(0, 0, 0, 0.4);
+            width: 31%;
+        }
+        #section4{
+            padding: 50px 0;
+            background-color: black;
+            text-align: center;
+        }
+        #sec4p1{
+            width: 100%;
+            color: #00a3db;
+        }
+        #sec4p2{
+            display: flex;
+            flex-direction: row;
+        }
+        #sec4p2>div{
+            width: 33%;
+            padding: 0 55px;
+        }
+        #sec4p2>div>img{
+            width: 40%;
+        }
+        #section5{
+            width: 100%;
+            background-color: rgb(53, 49, 49);
+            text-align: center;
+            margin: 0;
+            padding: 90px 0;
+            color: #00a3db;
+        }
+        #section5>div>p{
+            margin: 0;
+        }
+        #section6{
+            color: #00a3db;
+            background-color: black;
+        }
+        #section6>div{
+            display: flex;
+            flex-direction: row;
+        }
+        #section6>div>div{
+            padding: 90px 90px;
+        }
+        #section6>div>div>h3{
+            font-size: 35px;
+        }
+        #section6>div>img{
+            width: 50%;
+        }
+        #section7{
+            background-image: url("sek7.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: inherit;
+            height: 900px;
+        }
+        #section7>div{
+            float: right;
+            width: 25%;
+            padding: 230px 0;
+            padding-right: 100px;
+            text-align: right;
+        }
+        #section7>div>p{
+            line-height: 22px;
+        }
+        #section7>div>h1{
+            font-size: 70px;
+            line-height: 60px;
+        }
+        .btn2>a{
+            color: #00a3db;
+            margin: auto;
+            text-decoration: none;
+        }
+        .btn2{
+            text-align: center;
+            padding: 3px 0;
+            border-radius: 20px;
+            background-color: #d5d5d5;
+            font-size: 22px;
+            width: 23%;
+            height: 40px;
+            margin: auto;
+            float: right;
+            transition: 0.3s;
+        }
+        .btn2:hover{
+            background-color: #00a3db;
+        }
+        .btn2:hover>a{
+            color: #d5d5d5;
+        }
+        #section8{
+            color: #00a3db;
+            background-color: black;
+            font-size: 23px;
+        }
+        #section8 img{
+            padding: 50px 0;
+            margin: auto;
+            width: 657px;
+            height: 580px;
+        }
+        #sec8p1{
+            display: flex;
+        }
+        #sec8p2{
+            display: flex;
+        }
+        #sec8p3{
+            display: flex;
+        }
+        .sec8{
+            width: 50%;
+            padding: 100px 100px;
+        }
+        #section9{
+            background-color: #141414;
+            text-align: center;
+        }
+        #section9>div{
+            display: flex;
+            width: 100%;
+            padding: 50px 0;
+        }
+        #section9>div>div{
+            display: flex;
+            width: 33.3%;
+            padding: 0 40px;
+        }
+        #section10{
+            background-color: black;
+        }
+        #section10>div{
+            padding: 100px 25%;
+        }
+        footer{
+            background-color: #141414;
+        }
+        footer>div{
+            padding: auto;
+            background-color: #141414;
+            width: 100%;
+        }
+        footer>div{
+            padding: 125px;
+            width: 25%;
+        }
+        footer>div>h3{
+            padding: 0;
+            margin: 0;
+        }
+        footer>div>ul{
+            margin: 0;
+            display: flex;
+        }
+        footer>div>ul>li{
+            padding-right: 25px;
+            padding-left: 0px;
+            display: flex;
+        }
+        footer>div>ul>li>a{
+            text-decoration: none;
+        }
+        @media  screen and (max-width: 1024px) {
+    html{
+        width: 100%;
+    }
+    #section2>#sec2p2{
+        padding: 15px 25px;
+    }
+    #section2>#sec2p2>div{
+        padding: 0 5px;
+    }
+    #section3{
+        background-image: none;
+    }
+    #section3>#sec3p2{
+        padding: auto;
+        align-items: stretch;
+    }
+    #section3>#sec3p2>div{
+        margin: 15px auto;
+    }
+    img{
+        display: none;
+    }
+}
+
+    </style>
+    </head>
+    <body>
+        <header>
+            <a href="http://wykop.pl/mikroblog"><img src="logo.png" alt="logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="section1">
+            <div>
+                <h1>KENSHI</h1>
+                <p>Kenshi, created by Lofi Games, is a single player Role Playing Game set in a vast and atmospheric ‘Sword-Punk’ style open world.<br>  With a mix of squad-based control and city-building features, gameplay is completely free-roaming and open:<br> enjoy the freedom and potential to do whatever you want.<br>Set in an unrelenting world of bloodthirsty cannibals, starving bandits, brutal slavers and wild beasts, survival alone is a grueling struggle… <br>You are not the chosen one. You’re not great and powerful. You don’t have more ‘hitpoints’ than everyone else.<br> You are not the center of the universe, and you are not special. Unless you work for it.</p><br>
+                <div class="btn1"><a href="readmore.html">READ MORE</a></div>
+            </div>
+        </section>
+        <section id="section2">
+            <div id="sec2p1">
+                <h2>WE ARE WHO WE ARE</h2>
+                <p>A free-roaming squad based RPG focusing on open-ended sandbox gameplay features rather than a linear story.<br> Be a trader, a thief, a rebel, a warlord, an adventurer, a farmer, a slave, or just food for the cannibals. <br>Research new equipment and craft new gear. Purchase and upgrade your own buildings to use as safe fortified havens when things go bad, or use them to start up a business.<br> Aid or oppose the various factions in the world while striving for the strength and wealth necessary to simply survive in the harsh desert.<br> Train your men up from puny victims to master warriors. Carry your wounded squad mates to safety and get them all home alive.</p>
+            </div><br>
+            <div id="sec2p2">
+                <div>
+                    <span>We build towns</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates molestiae, reiciendis repellat ipsa quam odit velit in at ea iste quis explicabo voluptate. Illum, repellat magnam exercitationem non alias provident.</p>
+                </div>
+                <div>
+                    <span>We fight with cultists and cannibals</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus enim ea ipsa, quam ullam facilis laboriosam quisquam impedit asperiores numquam autem vel consectetur, accusantium tempore. Animi delectus enim recusandae hic.</p>
+                </div>
+                <div>
+                    <span>We do not believe in okran</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam asperiores, quam, ex labore adipisci impedit quisquam recusandae dignissimos repellat eos aspernatur officia maiores dolorem ea illo reiciendis quod est fugit.</p>
+                </div>
+            </div>
+        </section>
+        <section id="section3">
+            <div id="sec3p1">
+                <h2>PRIORITIES GO FIRST</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates unde error illum vitae doloremque veritatis, commodi consequuntur et dicta, repellendus beatae dolorem, aut iusto officiis voluptatem hic ab possimus perspiciatis!</p>
+            </div>
+            <div id="sec3p2">
+                <div>
+                    <h3>title1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, temporibus facilis nisi nulla suscipit quae tempora dolore architecto modi quibusdam commodi similique magnam vitae quia debitis harum porro excepturi illo.</p>
+                    <p>Author1</p>
+                </div>
+                <div>
+                    <h3>title2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sunt eligendi ipsa delectus itaque quae aliquam voluptatibus nesciunt, fugit doloremque, minus deleniti nulla esse neque optio velit doloribus libero ipsam?</p>
+                    <p>Author2</p>
+                </div>
+                <div>
+                    <h3>title3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae repellendus aspernatur ducimus? Repellendus, itaque nulla vel cumque perspiciatis earum! Mollitia officiis totam necessitatibus voluptas voluptatum vitae quibusdam fuga quidem magnam.</p>
+                    <p>Author3</p>
+                </div>
+                <div>
+                    <h3>title4</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem magni, magnam blanditiis recusandae hic, quo voluptates, cumque nobis consequuntur molestiae inventore et quibusdam maiores mollitia quam dolor. Consectetur, ex vitae.</p>
+                    <p>Author4</p>
+                </div>
+                <div>
+                    <h3>title5</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi esse odit, corporis officiis nemo tempora, ipsa voluptatem, aspernatur non nam commodi consequuntur delectus reprehenderit perspiciatis illum possimus quasi velit deleniti!</p>
+                    <p>Author5</p>
+                </div>
+                <div>
+                    <h3>title6</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quas eos commodi blanditiis quisquam dicta porro eum ex, libero nobis voluptatibus, dignissimos a nulla quam magni necessitatibus, sit doloribus dolorem.</p>
+                    <p>Author6</p>
+                </div>
+            </div>
+        </section>
+        <section id="section4">
+            <div id="sec4p1">
+                <h2>WHAT EXACTLY DO WE DO</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae commodi inventore nesciunt nostrum, ratione sed aut voluptatum animi ipsum corporis numquam harum quae ex doloribus eos beatae obcaecati culpa delectus.</p>
+            </div><br>
+            <div id="sec4p2">
+                <div>
+                    <img src="boredom.jpg" alt="author1">
+                    <h3>BOREDOM</h3>
+                    <p>That's not something you will find in this world</p>
+                </div>
+                <div>
+                    <img src="aggression.jpg" alt="author2">
+                    <h3>AGGRESSION</h3>
+                    <p>Whenever something that should go according to the plan is going wrong</p>
+                </div>
+                <div>
+                    <img src="confusion.jpg" alt="author3">
+                    <h3>CONFUSION</h3>
+                    <p>When leg of your best warrior is suddenly in the air and you can see him crawling</p>
+                </div>
+            </div>
+        </section>
+        <section id="section5">
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+                <p>Author</p>
+            </div>
+        </section>
+        <section id="section6">
+            <div>
+                <div>
+                    <h3>NATURE IS ABOVE ALL</h3>
+                    <p>Environment refers to the different soil types in Kenshi. Data about a location's environment can be found by Prospecting the area. Players should learn what environment they are in before Farming.</p>
+                </div>
+                <img src="nature.jpg" alt="jungle">
+            </div>
+        </section>
+        <section id="section7">
+            <div>
+                <h1>BUY YOUR TICKETS</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, excepturi numquam? Ullam ab soluta, aliquam reprehenderit consectetur vel rerum.</p>
+                <div class="btn2">
+                    <a href="#">HERE</a>
+                </div>
+            </div>
+        </section>
+        <section id="section8">
+            <div>
+                <div id="sec8p1">
+                    <div class="sec8">
+                        <h3>PALOWNIK</h3>
+                        <p>Gdyby ktoś mi powiedział, że spędzę pierwsze 8 godzin w tej grze próbując uciec z obozu pracy i będę się przy tym dobrze bawił to powiedziałbym, że go po!@#ło, a jednak to prawda. Gra ma otwarty świat, który kopie po jajach i zadaje pytania później, nikt nie trzyma gracza za rękę tu robisz co chcesz, jak chcesz i z kim chcesz. Graficznie odstaje od reszty i posiada masę bugów jak na grę z otwartym światem przystało. Niemniej jednak polecam.</p>
+                    </div>
+                    <img src="recenzent1.png" alt="recenzent1">
+                </div>
+                <div id="sec8p1">
+                    <img src="recenzent2.png" alt="recenzent2">
+                    <div class="sec8">
+                        <h3>LORDOFD</h3>
+                        <p>Is this game crashing sometimes? YES! Is this game unfinished? YES! Is this one of the best games I have ever played?  Y E S!!!!!\Seriously. After SSeth review I was under impresion this game will be a base builder for 20 hours max.And here I am after over 100 hours in game.Remember to get the Smaller textures mod that makes this game run incredibly well and loads gem in minute instead 6 minutes :D</p>
+                    </div>
+                </div>
+                <div id="sec8p1">
+                    <div class="sec8">
+                        <h3>JABEM</h3>
+                        <p>Ran out of spawn got beaten up by bandits they stole my bread then slavers came enslaved me and sold me off to holy nation after 21st day i escaped and was so skilled in combat i could chop somebody in half with my fists 10/10 would get enslaved again BEEP
+                    </p>
+                </div>
+                <img src="recenzent3.png" alt="recenzent3">
+                </div>
+            </div>
+        </section>
+        <section id="section9">
+            <div>
+                <div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, nobis blanditiis?</p>
+                </div>
+                <div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, nobis blanditiis?</p>
+                </div>
+                <div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, nobis blanditiis?</p>
+                </div>
+            </div>
+        </section>
+        <section id="section10">
+            <div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error exercitationem, libero corporis laboriosam voluptas harum minus perspiciatis doloremque enim nulla! Quis obcaecati cupiditate voluptas consequuntur odio molestias fugit mollitia unde!</p>
+                <p>David Johnson</p>
+            </div>
+        </section>
+        <footer>
+            <div>
+                <h3>ABOUT</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ut aliquam similique labore sed ullam cumque voluptatibus doloremque eum necessitatibus</p>
+                <ul>
+                    <li><a href="#">FB</a></li>
+                    <li><a href="#">IN</a></li>
+                    <li><a href="#">TW</a></li>
+                    <li><a href="#">YT</a></li>
+                    <li><a href="#">SC</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>

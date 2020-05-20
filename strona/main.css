@@ -1,0 +1,294 @@
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(36, 33, 33);
+    color: #00a3db;
+    line-height: 35px;
+    font-size: 21px;
+}
+.gora{
+    height: 48px;
+}
+.gora>img{
+    width: 100%;
+    height: 48px;
+}
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    height: 67px;
+    line-height: normal;
+}
+header>nav>ul{
+    display: flex;
+    flex-direction: row;
+    padding-right: 25px;
+}
+header>nav>ul>li{
+    text-transform: uppercase;
+    padding: 0 40px;
+    list-style-type: none;
+}
+header>nav>ul>li>a{
+    text-decoration: none;
+    color: #00c1ff;
+}
+header>nav>ul>li>a:hover{
+    text-decoration: none;
+    color: #d7d7d7;
+}
+header>a>img{
+    padding-left: 50px;
+    height:100%;
+}
+.kenshi{
+    color: #d7d7d7;
+    background-image: url("../tla/sek1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 975px;
+}
+.kenshi>div{
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+}
+.kenshi>div>h1{
+    color: #d7d7d7;
+    font-size: 90px;
+}
+.btn1>a{
+    color: #00a3db;
+    margin: auto;
+    text-decoration: none;
+}
+
+.btn1{
+    padding-top: 6px;
+    border-radius: 20px;
+    background-color: #d5d5d5;
+    font-size: 22px;
+    width: 17%;
+    height: 40px;
+    margin: auto;
+    transition: 0.3s;
+}
+.btn1:hover{
+    background-color:#00c1ff;
+    color: #d5d5d5;
+}
+.btn1:hover>a{
+    color: #d5d5d5;
+}
+.weare{
+    background-color: black;
+    color: #00c1ff;
+}
+#sec2p1{
+    text-align: center;
+    padding: 50px 0;
+    width: 100%;
+}
+#sec2p2{
+    color: #d7d7d7;
+    display: flex;
+    width: 100%;
+    background-color: #141414;
+    padding: 90px 0;
+}
+#sec2p2>div{
+    width: 33%;
+    padding: 0 120px;
+}
+#sec2p2>div>span{
+    font-size: 25px;
+}
+.priorities{
+    background-image: url("../tla/back2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 125px;
+}
+#sec3p1{
+    padding: 100px;
+    width: auto;
+}
+#sec3p2{
+    padding: auto;
+    margin: 0 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+
+}
+#sec3p2>div{
+    margin: 17px auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 31%;
+}
+.exacly{
+    padding: 50px 150px;
+    background-color: black;
+    text-align: center;
+}
+#sec4p1{
+    width: 100%;
+    color: #00a3db;
+}
+#sec4p2{
+    display: flex;
+    flex-direction: row;
+}
+#sec4p2>div{
+    width: 33%;
+}
+#sec4p2>div>img{
+    width: 40%;
+}
+.grey{
+    width: 100%;
+    background-color: rgb(53, 49, 49);
+    text-align: center;
+    margin: 0;
+    padding: 90px 0;
+    color: #00a3db;
+}
+.grey>div>p{
+    margin: 0;
+}
+.nature{
+    padding:0 150px;
+    color: #00a3db;
+    background-color: black;
+}
+.nature>div{
+    display: flex;
+    flex-direction: row;
+}
+.nature>div>div{
+    padding: 90px 90px;
+}
+.nature>div>div>h3{
+    font-size: 35px;
+}
+.nature>div>img{
+    width: 50%;
+}
+.tickets{
+    background-image: url("../tla/sek7.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: inherit;
+    height: 900px;
+}
+.tickets>div{
+    float: right;
+    width: 25%;
+    padding: 230px 0;
+    padding-right: 100px;
+    text-align: right;
+}
+.tickets>div>div>p{
+    line-height: 22px;
+}
+.tickets>div>h1{
+    font-size: 70px;
+    line-height: 60px;
+}
+.btn2{
+    color: #00a3db;
+    text-align: center;
+    padding: 3px 0;
+    border-radius: 20px;
+    background-color: #d5d5d5;
+    font-size: 22px;
+    width: 23%;
+    height: 40px;
+    margin: auto;
+    float: right;
+    transition: 0.3s;
+}
+.btn2:hover{
+    background-color: #00a3db;
+}
+.btn2:hover{
+    color: #d5d5d5;
+}
+.reviewers{
+    padding:0 250px;
+    color: #00a3db;
+    background-color: black;
+    font-size: 23px;
+}
+.reviewers img{
+    padding: 50px 0;
+    margin: auto;
+    width: 657px;
+    height: 580px;
+}
+#sec8p1{
+    display: flex;
+}
+.sec8{
+    width: 50%;
+    padding: 100px 0;
+}
+.cos{
+    background-color: #141414;
+    text-align: center;
+}
+.cos>div{
+    display: flex;
+    width: 100%;
+    padding: 50px 0;
+}
+.cos>div>div{
+    display: flex;
+    width: 33.3%;
+    padding: 0 40px;
+}
+.quote{
+    background-color: black;
+}
+.quote>div{
+    padding: 100px 25%;
+}
+footer{
+    background-color: #141414;
+}
+footer>div{
+    padding: auto;
+    background-color: #141414;
+    width: 100%;
+}
+footer>div{
+    padding: 15px 125px;
+    width: 25%;
+}
+footer>div>h3{
+    padding: 0;
+    margin: 0;
+}
+.ikony{
+    margin: 0;
+    display: flex;
+}
+.ikony>li{
+    padding-right: 25px;
+    padding-left: 0px;
+    display: flex;
+}
+.ikony>li>a{
+    text-decoration: none;
+}
+.ikony>li>a>img{
+    width: 50px;
+}
