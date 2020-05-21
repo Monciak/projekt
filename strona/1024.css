@@ -4,7 +4,16 @@
     }
     .kenshi{
         padding:0 120px;
-        background-image: none;
+    }
+    header{
+        margin: auto;
+    }    
+    header>nav{
+        margin: auto;
+    }
+    header>a>img{
+        display: none;
+        width: 100%;
     }
     .weare>#sec2p1{
         padding:auto;
@@ -63,5 +72,8 @@
     .reviewers img{
         width: 35%;
         height: 35%;
+    }
+    .btn2{
+        float: none;
     }
 }

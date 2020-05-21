@@ -8,11 +8,15 @@ body{
 }
 .gora{
     height: 48px;
+    background-image: url("../tla/gora.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.gora>img{
+/* .gora>img{
     width: 100%;
     height: 48px;
-}
+} */
 header{
     background-color: black;
     display: flex;
@@ -29,7 +33,7 @@ header>nav>ul{
 }
 header>nav>ul>li{
     text-transform: uppercase;
-    padding: 0 40px;
+    padding: 0 25px;
     list-style-type: none;
 }
 header>nav>ul>li>a{
@@ -61,13 +65,13 @@ header>a>img{
 .kenshi>div>h1{
     color: #d7d7d7;
     font-size: 90px;
+    text-transform: uppercase;
 }
 .btn1>a{
     color: #00a3db;
     margin: auto;
     text-decoration: none;
 }
-
 .btn1{
     padding-top: 6px;
     border-radius: 20px;

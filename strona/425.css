@@ -1,6 +1,9 @@
 @media  screen and (max-width: 425px) {
+.gora{
+    display: none;
+}
 header>nav>ul> li{
-    padding: 0 15px;
+    padding: 0 8px;
 }
 .kenshi{
     margin: 0;
