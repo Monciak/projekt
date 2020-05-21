@@ -51,9 +51,27 @@ header>a>img{
 }
 section{
     background-image: url("../tla/sek1rozmyte.png");
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     width: 100%;
-    height: 975px;
+}
+
+/* GALERIA */
+
+.galeria{
+    width: 92%;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.galeria>div{
+    display: flex;
+}
+.galeria>div>div>img{
+    padding:25px;
+    width: 800px;
 }
